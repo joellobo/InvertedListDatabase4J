@@ -27,5 +27,9 @@ public class Field {
 
 		this.name = newName;
 	}
+	
+	public String name() {
+		return this.name;
+	}
 
 }
