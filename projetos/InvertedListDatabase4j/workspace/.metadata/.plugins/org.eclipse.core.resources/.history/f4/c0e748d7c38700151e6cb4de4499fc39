@@ -1,0 +1,15 @@
+package org.agoy.invertedlistdatabase4j.core;
+
+import java.util.Set;
+
+public class Database {
+	
+	private Set<File> files;
+	
+	public Set<File> files() {
+		return this.files;
+	}
+	
+	
+	
+}

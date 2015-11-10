@@ -1,0 +1,14 @@
+INDEX VERSION 1.127+/home/64943127304/Desktop/joellobo/dev/projetos/InvertedListDatabase4j/workspace/.metadata/.plugins/org.eclipse.jdt.core
+1467719945.index
+2219274168.index
+3040504711.index
+2515790315.index
+3285285227.index
+3480095327.index
+646963681.index
+2737603309.index
+3792800611.index
+2048516730.index
+926396838.index
+2186860023.index
+4225672828.index

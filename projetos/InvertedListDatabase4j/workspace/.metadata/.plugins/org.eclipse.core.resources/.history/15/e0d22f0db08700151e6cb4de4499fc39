@@ -1,0 +1,5 @@
+package org.agoy.invertedlistdatabase4j;
+
+public class Field {
+
+}

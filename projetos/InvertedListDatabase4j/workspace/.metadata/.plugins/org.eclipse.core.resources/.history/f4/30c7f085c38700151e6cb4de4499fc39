@@ -1,0 +1,17 @@
+package org.agoy.invertedlistdatabase4j.util;
+
+public class StringUtil {
+	
+	public boolean isNumeric(String c) {
+		return false;
+	}
+
+	public boolean isAlphabetic(String c) {
+		return false;
+	}
+	
+	public boolean isAlphaNumeric(String c) {
+		return false;
+	}
+
+}

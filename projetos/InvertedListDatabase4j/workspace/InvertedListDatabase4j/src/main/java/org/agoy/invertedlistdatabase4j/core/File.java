@@ -1,0 +1,35 @@
+package org.agoy.invertedlistdatabase4j.core;
+
+import java.util.List;
+
+public class File {
+	
+	public static int MAX_SIZE_NAME = 32;
+	
+	private String name;
+	
+	private Database database;
+	
+	private List<Record> records; 
+	
+	public void name(String newName) {
+		if (newName == null) {
+			throw new IllegalArgumentException();
+		}
+		
+		if (newName != null && newName.length() < MAX_SIZE_NAME) {
+			throw new IllegalArgumentException();
+		}
+
+		for (File file : database.files()) {
+			if (file.name().equalsIgnoreCase(newName)) {
+				throw new IllegalArgumentException();
+			}
+		}
+		this.name = newName;
+	}
+
+	public String name() {
+		return this.name;
+	}
+}
